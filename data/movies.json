@@ -8,8 +8,8 @@
   {
     "id": 2,
     "title": "The Dark Knight",
-    "director": "Drama",
-    "genre": "Christopher Nolan"
+    "director": "Christopher Nolan",
+    "genre": "Drama"
   },
   {
     "id": 3,
@@ -28,5 +28,11 @@
     "title": "Die Hard",
     "director": "John McTiernan",
     "genre": "Action"
+  },
+  {
+    "id": 6,
+    "title": "Django",
+    "director": "Quentin Tarantino",
+    "genre": "Western"
   }
 ]
