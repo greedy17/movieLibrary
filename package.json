@@ -1,0 +1,24 @@
+{
+  "name": "movielibrary",
+  "version": "1.0.0",
+  "description": "Movie library",
+  "main": "json-context.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greedy17/movieLibrary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greedy17/movieLibrary/issues"
+  },
+  "homepage": "https://github.com/greedy17/movieLibrary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
