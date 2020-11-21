@@ -1,8 +1,12 @@
+var cors = require("cors");
+const validators = require("./validators/custom-validations.js")
 const repoContext = require("./repository/repository-wrapper.js");
 const express = require('express');
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use((req, res, next) => validators.body(req, res, next));
 
 app.listen(3000, () => {
   console.log('Server started. listening on port 3000.')
