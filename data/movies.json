@@ -82,5 +82,11 @@
     "title": "Memento",
     "director": "Christopher Nolan",
     "genre": "Mystery"
+  },
+  {
+    "id": 15,
+    "title": "Avatar",
+    "director": "James Cameron",
+    "genre": "Sci-fi"
   }
 ]

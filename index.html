@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/movie-library.css">
   <title>Movie Library</title>
 </head>
@@ -20,21 +23,15 @@
 
   <br></br>
 
-  <form class="add-film" id="new-movie" action="">
+  <form class="add-film" id="new-movie" onsubmit="addMovie()" action="">
     <h1>Film out the form below to add a movie of your choosing.</h1>
-    <p>(please note that you must fill out the entire form or the movie will not be added)</p>
-    <label for="1">Film title ?</label>
-      <input type="text" name="" id="1">
+      Movie: <input type="text" required name="" id="1">
       <br></br>
-    <label for="2">Who's the director?</label>  
-      <input type="text" name="" id="2">
+      Director: <input type="text" required name="" id="2">
       <br></br>
-
-    <label for="3">Genre?</label>
-      <input type="text" name="" id="3">
+      Genre: <input type="text" required name="" id="3">
       <br></br>
-
-    <button type="submit">Add film</button>
+    <button type="submit" id="post">Add film</button>
   </form>
 
   <footer>

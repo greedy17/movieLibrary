@@ -35,3 +35,14 @@ function searchMovies(){
     });
   });
 }
+
+function addMovie(){
+$("#post").click(function(){
+  $.post("http://localhost:3000/api/movies", 
+    {
+      title: $("#1").val(),
+      director: $("#2").val(),
+      genre: $("#3").val()
+    }, "json")
+});
+}
