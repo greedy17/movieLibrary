@@ -34,5 +34,53 @@
     "title": "Django",
     "director": "Quentin Tarantino",
     "genre": "Western"
+  },
+  {
+    "id": 7,
+    "title": "Kill Bill",
+    "director": "Quentin Tarantino",
+    "genre": "Action"
+  },
+  {
+    "id": 8,
+    "title": "Inglorious Bastards",
+    "director": "Quentin Tarantino",
+    "genre": "Action"
+  },
+  {
+    "id": 9,
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "genre": "Action"
+  },
+  {
+    "id": 10,
+    "title": "The Silence of The Lambs",
+    "director": "Johnathan Demme",
+    "genre": "Thriller"
+  },
+  {
+    "id": 11,
+    "title": "Hercules",
+    "director": "Ron Clements & John Musker",
+    "genre": "Adventure"
+  },
+  {
+    "id": 12,
+    "title": "Gladiator",
+    "director": "Ridley Scott",
+    "genre": "Action"
+  },
+  {
+    "id": 13,
+    "title": "Good Will Hunting",
+    "director": "Guss Van Sant",
+    "genre": "Romance"
+  },
+  {
+    "id": 14,
+    "title": "Memento",
+    "director": "Christopher Nolan",
+    "genre": "Mystery"
   }
 ]

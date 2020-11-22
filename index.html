@@ -8,15 +8,34 @@
 </head>
 <body>
   <h1>Movie Library</h1>
+  <br></br>
 
   <form class="search" action="">  
-    <input type="text" id="input" onkeyup="searchMovies()" placeholder=" Search movies">
+    <input type="text" id="input" onkeyup="searchMovies()" style='width: 30%' placeholder=" Search movies">
   </form>
 
-   <br>
-   <br>
+  <h4><a href="#new-movie">Wanna add a movie? Click here</a></h4>
 
   <table id="myTable" class="library"></table>
+
+  <br></br>
+
+  <form class="add-film" id="new-movie" action="">
+    <h1>Film out the form below to add a movie of your choosing.</h1>
+    <p>(please note that you must fill out the entire form or the movie will not be added)</p>
+    <label for="1">Film title ?</label>
+      <input type="text" name="" id="1">
+      <br></br>
+    <label for="2">Who's the director?</label>  
+      <input type="text" name="" id="2">
+      <br></br>
+
+    <label for="3">Genre?</label>
+      <input type="text" name="" id="3">
+      <br></br>
+
+    <button type="submit">Add film</button>
+  </form>
   
   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <script src="movie-library.js"></script>
