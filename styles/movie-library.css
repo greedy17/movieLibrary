@@ -1,13 +1,23 @@
+body {
+  background-image: linear-gradient(darkred, black);
+  color: white;
+}
+
+#title {
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
 .library {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   height: 600px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
-.heading, .search, .add-film {
+.heading, .search, .add-film, .top {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,6 +26,7 @@
 .add-film {
   padding: 3rem;
   margin: 2rem;
+  background-image: linear-gradient(darkred, black);
   -moz-box-shadow: 5px 5px 10px black;
   -webkit-box-shadow: 5px 5px 10px black;
   box-shadow: 5px 5px 10px black;
@@ -29,17 +40,28 @@ h4 {
 }
 
 tr {
-  border-style: solid;
+  border-style: solid 1px;
   height: 400px;
   width: 20%;
   margin: 1rem;
+  border-radius: .2rem;
+  box-shadow: 0px 10px 20px rgb(12, 0, 14);
+}
+
+tr:hover {
+  transform: scale(1.05);
+  box-shadow: 0px -10px 60px #A99474;
+}
+
+td {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin: 1rem;
 }
 
 a {
-  color: black;
   text-decoration: none;
+  color: white;
   background-image: linear-gradient(currentcolor, currentcolor);
   background-position: 0% 100%;
   background-repeat: no-repeat;
@@ -51,4 +73,13 @@ a:hover,
 a:focus {
   text-decoration: none;
   background-size: 100% 2px;
+}
+
+button {
+  width: 100px;
+  border-radius: .5rem;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.15);
 }

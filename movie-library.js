@@ -15,6 +15,7 @@ function getMovies(){
           '<div>' + '<td>' + "Movie: " + value.title + '</td>' + '</div>' +
           '<div>' + '<td>' + "Director: " + value.director + '</td>' + '</div>' +
           '<div>' + '<td>' + "Genre: " + value.genre + '</td>' + '</div>' +
+          '<div>' + '<td>' + '<button>Update</button>' + '</td>' + '</div>' +
           '</tr>'
         );
       });
