@@ -88,5 +88,17 @@
     "title": "Avatar",
     "director": "James Cameron",
     "genre": "Sci-fi"
+  },
+  {
+    "id": 16,
+    "title": "Lord of the rings",
+    "director": "Peter Jackson",
+    "genre": "Sci-fi"
+  },
+  {
+    "id": 17,
+    "title": "movie",
+    "director": "director",
+    "genre": "genre"
   }
 ]
