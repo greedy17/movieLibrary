@@ -52,7 +52,13 @@ function updateMovie() {
     url: 'http://localhost:3000/api/movies',
     type: 'PUT',
     type: "json",
-    success: function(result) {    
+    success: function(result) { 
+      id: $(this).value.id,
+      title: $("#1").val(),
+      director: $("#2").val(),
+      genre: $("#3").val() 
+    
+      
     }
 });
 }
