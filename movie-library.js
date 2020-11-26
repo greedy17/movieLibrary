@@ -1,5 +1,3 @@
-const { movies } = require("./repository/json-context");
-
 function getMovies(){
   $(function(){
     $.ajax({
@@ -46,5 +44,15 @@ $("#post").click(function(){
       director: $("#2").val(),
       genre: $("#3").val()
     }, "json")
+});
+}
+
+function updateMovie() {
+  $.ajax({
+    url: 'http://localhost:3000/api/movies',
+    type: 'PUT',
+    type: "json",
+    success: function(result) {    
+    }
 });
 }
