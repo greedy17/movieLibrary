@@ -48,33 +48,3 @@ $("#post").click(function(){
     }, "json")
 });
 }
-
-api.put("/:id", (req,res) => {
-  movies.findById(req.params.id, (err, movies) => {
-    if (err) {
-      res.send(err);
-    }
-    movies.name = req.body.name;
-    movies.save(err => {
-      if (err) {
-        res.send(err);
-      }
-      res.json({ message: "Movie info updated"});
-    });
-  });
-});
-
-// function updateMovie() {
-//   $.ajax({
-//     url: 'http://localhost:3000/api/movies',
-//     type: 'PUT',
-//     type: "json",
-//     success: function(result) { 
-//       id: $(this).value.id,
-//       title: $("#1").val(),
-//       director: $("#2").val(),
-//       genre: $("#3").val() 
-      
-//     }
-// });
-// }
