@@ -1,5 +1,5 @@
 var cors = require("cors");
-const validators = require("./validators/custom-validations.js")
+const validators = require("./validators/custom-validations.js");
 const repoContext = require("./repository/repository-wrapper.js");
 const express = require('express');
 const app = express();

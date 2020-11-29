@@ -1,4 +1,4 @@
-function getMovies(){
+ function getMovies(){
   $(function(){
     $.ajax({
       type: 'GET',
@@ -15,7 +15,6 @@ function getMovies(){
           '<div>' + '<td>' + "Movie: " + value.title + '</td>' + '</div>' +
           '<div>' + '<td>' + "Director: " + value.director + '</td>' + '</div>' +
           '<div>' + '<td>' + "Genre: " + value.genre + '</td>' + '</div>' +
-          '<div>' + '<td>' + '<button id="update-movie">Update</button>' + '</td>' + '</div>' +
           '</tr>'
         );
       });
@@ -44,15 +43,5 @@ $("#post").click(function(){
       director: $("#2").val(),
       genre: $("#3").val()
     }, "json")
-});
-}
-
-function updateMovie() {
-  $.ajax({
-    url: 'http://localhost:3000/api/movies',
-    type: 'PUT',
-    type: "json",
-    success: function(result) {    
-    }
 });
 }
