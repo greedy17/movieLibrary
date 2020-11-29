@@ -94,5 +94,20 @@
     "title": "Lord of the rings",
     "director": "Peter Jackson",
     "genre": "Sci-fi"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "id": 17,
+    "title": "movie",
+    "director": "director",
+    "genre": "genre"
+  },
+  {
+    "id": 18,
+    "title": "Megan is Missing",
+    "director": "Michael Goi",
+    "genre": "Horror"
+>>>>>>> 9efcdafd7492bb501deafd7b877e2cf57b4fa7b8
   }
 ]
